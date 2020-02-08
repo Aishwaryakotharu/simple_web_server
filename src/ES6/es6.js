@@ -92,6 +92,8 @@ const myObject = {
   four: 4,
   five: 5
 };
+
+//destrucuring object
 const {
   one,
   two,
@@ -102,24 +104,25 @@ const {
 console.log(one, two, three, otherProps);
 
 //enhanced object lietrals
-console.log({one:one,two:two,three:three});
-console.log({one,two,three});
-
+console.log({ one: one, two: two, three: three });
+console.log({ one, two, three });
 
 //block scoped function variables
 
-function uselessFunction(){
-var myVariable="hi";
+function uselessFunction() {
+  var myVariable = "hi";
 }
 
-if(true){
-//block
-var myVariable="hi var";
+if (true) {
+  //block
+  var myVariable = "hi var";
 
-let mySecondVariable="hi let";
+  let mySecondVariable = "hi let";
 
-const myThirdVariable="hi const";
+  const myThirdVariable = "hi const";
 }
 console.log(myVariable);
 //console.log(mySecondVariable); bcz error
-//console.log(myThirdVariable); bcz error 
+//console.log(myThirdVariable); bcz error
+
+//CLASS
