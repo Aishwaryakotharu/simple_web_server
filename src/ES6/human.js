@@ -3,17 +3,10 @@
 //in es9 or 10 may have private
 
 class Human {
-
-
   //static
-static someMethod(){
-console.log("it has nothing to do with the instance");
-}
-
-
-
-
-
+  static someMethod() {
+    console.log("it has nothing to do with the instance");
+  }
 
   //constructor
   constructor(firstName, lastName) {
